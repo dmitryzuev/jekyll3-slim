@@ -1,6 +1,6 @@
-require "jekyll3/slim/version"
+require "jekyll/slim/version"
 
-module Jekyll3
+module Jekyll
   module Slim
     # Your code goes here...
   end

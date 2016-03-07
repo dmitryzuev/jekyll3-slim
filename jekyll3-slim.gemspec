@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll3/slim/version'
+require 'jekyll/slim/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll3-slim"
-  spec.version       = Jekyll3::Slim::VERSION
+  spec.version       = Jekyll::Slim::VERSION
   spec.authors       = ["Dmitry Zuev"]
   spec.email         = ["mail@dzuev.ru"]
 
